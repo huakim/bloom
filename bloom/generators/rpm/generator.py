@@ -90,7 +90,7 @@ except ImportError as err:
     error("rosdistro was not detected, please install it.", exit=True)
 
 try:
-    import em
+    import empy3 as em
 except ImportError:
     debug(traceback.format_exc())
     error("empy was not detected, please install it.", exit=True)
