@@ -20,7 +20,7 @@ setup(
     install_requires=[
         'catkin_pkg >= 0.4.3',
         'setuptools',
-        'empy.v3',
+        'empy3',
         'packaging',
         'python-dateutil',
         'PyYAML',
